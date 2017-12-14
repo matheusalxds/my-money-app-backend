@@ -8,3 +8,5 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.listen(port, () => {
   console.log(`[SERVER] - Running on port ${port}`);
 });
+
+module.exports = server;
