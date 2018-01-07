@@ -76,7 +76,7 @@ const signup = (req, res, next) => {
         if (err) {
           return sendErrorsFromDB(res, err);
         } else {
-          log(req, res, next);
+          login(req, res, next);
         }
       });
     }
